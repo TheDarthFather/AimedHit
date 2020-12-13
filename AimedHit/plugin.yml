@@ -1,0 +1,18 @@
+name: AimedHit
+main: me.thedarthfather.minecraft.aimedhit.AimedHit
+version: 1.0
+description: Aim your hits Head, Body, Arms, Legs, PvP, PvE, EvP,  Melee and Projectiles
+author: TheDarthFather
+commands:
+    aimedhit:
+      description: Reload  Configuration
+      usage: |
+          /aimedhit reload - Reloads Configuration ( /ffah reload )
+      aliases: [ffah]
+permissions:
+    aimedhit.admin:
+        description: Allows users to use aimedhit reload and aimedhit debug
+        default: op
+    aimedhit.use:
+        description: Allows users to benefit from the AimedHit effects (Do enable Permissions in Config to use this!)
+
